@@ -1,0 +1,34 @@
+:root {
+  --font-family-body: "forum", sans-serif;
+  --font-family-logo: "vladimir";
+
+  --font-weigth-input: 300;
+
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #f4e9e1;
+  --secondary-color: #ffffff;
+  --contrast-dark-color: #223023;
+
+  --contrast-light-color: #6a8673;
+  --warning-color: #a58d99;
+  --success-color: #bd9205;
+  --transparency-color: #938c58;
+
+  --shadow: 0 5px 10px #223023;
+}
+
+
+
+@media (min-width: 800px) {
+  :root {
+    --font-size-logo: 56px;
+  }
+}
